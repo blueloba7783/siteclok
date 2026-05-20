@@ -33,6 +33,8 @@ function SubscriptionScreen({ onSubscribed }) {
   const annualTotal = (49.99 * 12 * 0.8).toFixed(2);
 
   const handleSubscribe = async () => {
+  window.location.href = "https://buy.stripe.com/3cI5kF1Sx66ucsM7N89EI00";
+};
     setLoading(true);
     setError(null);
     try {
